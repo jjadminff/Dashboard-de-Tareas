@@ -89,19 +89,10 @@ El **dashboard web** corre directamente en el navegador:
 
 📬 Contacto / Autor
 
-👤 Tu nombre o usuario de GitHub
-📧 Correo (opcional)
-🌐 Perfil de GitHub
-
-💡 Tip: Puedes extender este README agregando secciones de instalación, ejemplos de uso o capturas de pantalla para hacerlo aún más profesional.
+👤 JJ 
+📧 juanledzma@hotmail.com
+🌐 github.com/jjadminff
 
 
----
 
-¿Quieres que lo mejore aún más con:  
-- 🧪 Sección de instalación paso a paso  
-- 📁 Estructura del proyecto  
-- 📷 Capturas de pantalla  
-
-? (Esto lo haría ver como un README ⭐⭐⭐⭐ de proyecto profesional en GitHub). Si sí, dime cuál de esas secciones quieres que agregue y lo hacemos.
 
