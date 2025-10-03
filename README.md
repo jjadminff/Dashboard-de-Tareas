@@ -58,6 +58,15 @@ El **dashboard web** corre directamente en el navegador:
   - Cambiar prioridades  
 
 ---
+🧰 Hardware utilizado
+
+| Componente             | Descripción                                          |
+| ---------------------- | ---------------------------------------------------- |
+| 🍓 Raspberry Pi 4B     | Servidor principal que ejecuta Node.js y SQLite      |
+| 💾 MicroSD 32 GB       | Almacenamiento del sistema operativo y base de datos |
+| 🌐 Wi-Fi integrado     | Conexión en red local para acceder al dashboard      |
+| 🖥️ Pantalla HDMI (op) | Interfaz directa para monitoreo y administración     |
+
 
 ## 🔄 4️⃣ Comunicación entre componentes
 
