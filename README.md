@@ -16,12 +16,12 @@
 
 ## ⚙️ 1️⃣ Tipo de servidor
 
-Tu proyecto utiliza un **servidor Node.js con Express**:
+El proyecto utiliza un **servidor Node.js con Express**:
 
 - 🟢 **Node.js:** Entorno de ejecución JavaScript del lado del servidor.  
 - 🚀 **Express.js:** Framework que simplifica la creación de endpoints HTTP (ej.: `/api/tasks`, `/api/subtasks`).
 
-🔧 **En tu proyecto:**
+🔧 **En el proyecto:**
 
 - Node.js escucha en un puerto HTTP (por ejemplo, `3000`).
 - Recibe solicitudes `GET`, `POST`, `PUT`, `DELETE` y responde con **JSON**.
