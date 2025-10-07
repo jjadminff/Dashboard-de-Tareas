@@ -1,0 +1,47 @@
+:root{font-family:system-ui,Segoe UI,Roboto,Arial}
+body{margin:0;background:#121212;color:#111}
+header{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+header h1{margin:0;font-size:20px}
+.controls{display:flex;gap:8px}
+.controls input{padding:6px 8px;border-radius:6px;border:1px solid #ddd}
+.controls button{padding:6px 10px;border-radius:6px;border:0;background:#1976d2;color:#fff}
+.board{display:flex;gap:12px;padding:18px}
+.column{padding:12px;border-radius:8px;flex:1;min-height:300px}
+.column h2{margin:0 0 8px 0;font-size:14px}
+.list{min-height:220px}
+
+/* Column colors */
+#todo { background: #aeadad; }           /* gris claro */
+#inprogress { background: #90caf9; }     /* azul */
+#done { background: #a5d6a7; }           /* verde */
+
+.task{padding:8px;margin:6px 0;border-radius:6px;background:#fff;cursor:grab;box-shadow:0 1px 2px rgba(0,0,0,0.04)}
+.task.dragging{opacity:.5}
+.task .actions{float:right}
+.smallbtn{border:0;background:transparent;cursor:pointer}
+
+/* Subtask list inside task */
+.subtasks{margin-top:8px;padding-left:12px}
+.subtask{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(0,0,0,0.04)}
+.subtask input[type="checkbox"]{width:16px;height:16px}
+.subtask .title{flex:1}
+.add-subtask{display:flex;gap:6px;padding-top:6px}
+.add-subtask input{flex:1;padding:6px;border-radius:6px;border:1px solid #ddd}
+.add-subtask button{padding:6px 8px;border-radius:6px;border:0;background:#2e7d32;color:#fff}
+
+/* Small visual tweaks */
+.task-title{font-weight:600}
+.task-controls{display:flex;gap:6px;align-items:center}
+
+/* Responsive */
+@media (max-width:700px){
+  .board{flex-direction:column}
+}
+.task-title[contenteditable], .subtask .title[contenteditable]{
+  border-bottom: 1px dashed #888;
+  padding: 2px 4px;
+  outline: none;
+}
+.task-title[contenteditable]:focus, .subtask .title[contenteditable]:focus{
+  background: #fff9c4;
+}
